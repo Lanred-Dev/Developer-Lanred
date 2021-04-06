@@ -133,7 +133,7 @@
 }
 
 /* Media */
-@media all and (max-width: 1366px) and (min-width: 1360px) {
+@media all and (max-width: 1366px) and (min-width: 1366px) {
     /* Class Based */
     .Page_Landing {
         width: 1366px;
@@ -154,7 +154,7 @@
     }
 }
 
-@media all and (max-width: 1536px) and (min-width: 1400px) {
+@media all and (max-width: 1536px) and (min-width: 1536px) {
     /* Class Based */
     .Page_Landing {
         width: 1536px;

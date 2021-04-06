@@ -286,7 +286,7 @@
 }
 
 /* Media */
-@media all and (max-width: 1366px) and (min-width: 1360px) {
+@media all and (max-width: 1366px) and (min-width: 1366px) {
     /* Class Based */
     .Page_Landing .Center_Position_Inline {
         margin-left: 13%;
@@ -326,7 +326,7 @@
     }
 
     .Section_Combine .Skills_Container .Skills_Combine, .Games_Container .Games_Combine {
-        width: 990.2px;
+        width: 1000.2px;
     }
 
     .Section_Combine .Skills_Container .Skill {
@@ -374,7 +374,7 @@
     }
 }
 
-@media all and (max-width: 1536px) and (min-width: 1400px) {
+@media all and (max-width: 1536px) and (min-width: 1536px) {
     /* Class Based */
     .Page_Landing .Center_Position_Inline {
         margin-left: 22%;
@@ -414,7 +414,7 @@
     }
 
     .Section_Combine .Skills_Container .Skills_Combine, .Games_Container .Games_Combine {
-        width: 990.2px;
+        width: 1250.2px;
     }
 
     .Section_Combine .Skills_Container .Skill {

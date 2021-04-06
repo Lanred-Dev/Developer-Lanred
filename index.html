@@ -4,17 +4,29 @@
 <html lang="en">
 <head>
     <!--Meta Tags-->
-    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge", chrome="1">
     <meta name="HandheldFriendly" content="true">
-    <meta name="description" content="Hey, I am developer lanred! This site is made to tell you more about me and provide you with some games to play!">
-    <meta name="keywords" content="Portfolio, About Me, Games, CSS, HTML, JS">
+    <meta name="description" content="Developer Lanred makes youtube videos mostly consisted of LUA or Roblox tutorials.">
+    <meta name="keywords" content="Portfolio, About Me, Games, CSS, HTML, JS, Developer-Lanred, Developer, Lanred, Lanred_Dev, Lanred Developer, Dev_Lared, Lanred Dev, Lanred Roblox, FireFox Studios, Heart Studios">
     <meta name="author" content="Developer Lanred">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta property="og:url" content="https://developer-lanred.tmwh.eu.org">
+    <meta property="og:title" content="Developer Lanred">
+    <meta property="og:description" content="Developer Lanred or Lanred makes tutorials on youtube and likes to program.">
+    <meta property="og:image" content="https://developer-lanred.tmwh.eu.org/Pictures/Logo.png">
+    <meta name="twitter:title" content="Developer Lanred">
+    <meta name="twitter:description" content="Developer Lanred or Lanred makes tutorials on youtube and likes to program.">
+    <meta name="twitter:image" content="https://developer-lanred.tmwh.eu.org/Pictures/Logo.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://developer-lanred.tmwh.eu.org/">
+    <meta name="twitter:creator" content="@LanredRbx">
+    <meta property="og:site_name" content="Developer Lanred">
+    <meta name="twitter:image:alt" content="Developer Lanred">
+    <meta property="og:site_name" content="Developer Lanred">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
     <link rel="canonical" href="https://developer-lanred.tmwh.eu.org/">
 
     <!--Head-->
-    <title>Developer Lanred</title>
 
     <!--File Calls-->
     <link rel="stylesheet" href="CSS-Files/Others/Base/Base1.css">
@@ -48,7 +60,7 @@
             <h3 class="Section_Info_Under_Title" id="About_Cycle_Text"></h3>
             <hr class="Divider">
             <div class="About_Section">
-                <p class="Info">I am a programmer and game developer. I was brought to the attention of the platform <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> at the age of 7 by my friend Joshua. I have been making games on <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> for 5 years and I am having a lot of fun doing it. The first game I made was Crazy Wars in 2016. Which mostly consisted of free models but I was really proud of it. I made many other games in from the time I started to now. As of the current time I am an programmer and I mostly program but I really like to help people and I also have some other skills! The <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> community is very friendly and its super easy to advertise which is one of the main reasons I use it. My latest game is <a class="Intext_Link" href="https://www.roblox.com/games/6440261717/Blocky">Blocky🔗</a> and my latest full release game is <a class="Intext_Link" href="https://www.roblox.com/games/5911088679/At-War-Alpha">At War!🔗</a>.</p>
+                <p class="Info">I am a programmer and game developer. I was brought to the attention of the platform <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> at the age of 7 by my friend Joshua. I have been making games on <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> for 6 years and I am having a lot of fun doing it. The first game I made was Crazy Wars in 2016. Which mostly consisted of free models but I was really proud of it. I made many other games in from the time I started to now. As of the current time I am an programmer and I mostly program but I really like to help people and I also have some other skills! The <a class="Intext_Link" href="https://roblox.com">Roblox🔗</a> community is very friendly and its super easy to advertise which is one of the main reasons I use it. My latest game is <a class="Intext_Link" href="https://www.roblox.com/games/6586883094">Lag Test🔗</a> and my latest full release game is <a class="Intext_Link" href="https://www.roblox.com/games/5911088679">At War!🔗</a>.</p>
                 <p class="Info" style="margin-top: 5px;">Things I want to do:</p>
                 <ul class="Info_List">
                     <li class="List_Item"><p class="Item">Learn C#</p></li>
@@ -62,7 +74,7 @@
                 <p class="Info">Some more business based info for those of you who need to know. I only do commissions during the summer. If I want to work with you outside of summer then I or a friend will contact. I will only do things that are in my range of knowledge/skills. What type of commissions do I do?</p>
                 <ul class="Info_List">
                     <li class="List_Item"><p class="Item">Programming</p></li>
-                    <li class="List_Item"><p class="Item">Some building</p></li>
+                    <li class="List_Item"><p class="Item">Building</p></li>
                     <li class="List_Item"><p class="Item">Game Designer</p></li>
                     <li class="List_Item"><p class="Item">UI</p></li>
                 </ul>
@@ -162,7 +174,7 @@
             <hr class="Divider">
             <a class="Link" href="Events.html">Events</a>
             <hr class="Divider">
-            <button id="Theme">Theme</button>
+            <button id="Theme" onclick="Change_Theme();">Theme</button>
             <hr class="Divider">
             <button id="Cookies">Cookies</button>
         </div>
@@ -177,7 +189,8 @@
     </div>
 
     <!--JS Files Calls-->
-    <script src="JS-Files/Other/Page-Effects/Footer.js"></script>
+    <script src="JS-Files/Other/Page-Effects/Handler1.js"></script>
+    <script src="JS-Files/Other/Page-Effects/Size-Detection.js"></script>
     <script src="JS-Files/Webpages/Main-Page.js"></script>
     <script src="JS-Files/Other/Event-Handler.js"></script>
 </body>

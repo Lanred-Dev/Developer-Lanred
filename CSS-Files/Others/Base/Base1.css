@@ -32,7 +32,7 @@
 body {
     height: auto;
     background-size: cover;
-    background-image: linear-gradient(120deg, #BA0065, #BA0026);
+    background-image: linear-gradient(120deg, #BA0065, #ba004d);
 }
 
 ::-webkit-scrollbar {
@@ -230,7 +230,7 @@ img {
 }
 
 /* Media */
-@media all and (max-width: 1366px) and (min-width: 1360px) {
+@media all and (max-width: 1366px) and (min-width: 1366px) {
     /* Class Based */
     .Page_Landing {
         width: 1366px;
@@ -256,7 +256,7 @@ img {
     }
 }
 
-@media all and (max-width: 1536px) and (min-width: 1400px) {
+@media all and (max-width: 1536px) and (min-width: 1536px) {
     /* Class Based */
     .Page_Landing {
         width: 1536px;
